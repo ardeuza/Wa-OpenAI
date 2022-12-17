@@ -1,6 +1,6 @@
-const sessionName = 'yusril'
-const donet = 'https://saweria.co/sansekai'
-const owner = ['6287878817169']
+const sessionName = 'mad'
+const donet = 'https://ardeuz.my.id'
+const owner = ['6281414414403']
 const { default: sansekaiConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, getContentType } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
@@ -129,7 +129,7 @@ async function startHisoka() {
     const client = sansekaiConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Wa-OpenAI - Sansekai','Safari','3.0'],
+        browser: ['bocil','Safari','3.0'],
         auth: state
     })
 
